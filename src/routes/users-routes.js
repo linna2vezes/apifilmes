@@ -8,4 +8,10 @@ export default {
     preHandler: [validateRequest],
     handler: UserController.index,
   },
+  postUsers: {
+    method: "POST",
+    url: "/users",
+    preHandler: [validateRequest],
+    handler: UserController.index,
+  },
 };
